@@ -12,7 +12,7 @@ export const AboutSection = () => {
           {/* Left Side */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Web App Developer
+              Web Application Developer
             </h3>
 
             <p className="text-muted-foreground">
