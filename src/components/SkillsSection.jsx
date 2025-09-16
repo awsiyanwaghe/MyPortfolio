@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Languages
-  { name: "Python", category: "languages" },
+  // { name: "Python", category: "languages" },
   { name: "JavaScript", category: "languages" },
   { name: "TypeScript", category: "languages" },
   { name: "SQL", category: "languages" },
@@ -14,7 +14,7 @@ const skills = [
   // Frontend
   { name: "React.js", category: "frontend" },
   { name: "Next.js", category: "frontend" },
-  { name: "React Native", category: "frontend" },
+  // { name: "React Native", category: "frontend" },
   { name: "Redux", category: "frontend" },
   { name: "Tailwind CSS", category: "frontend" },
   { name: "ShadCN UI", category: "frontend" },
@@ -23,8 +23,8 @@ const skills = [
 
   // Backend
   { name: "Node.js", category: "backend" },
-  { name: "Django", category: "backend" },
-  { name: "Flask", category: "backend" },
+  // { name: "Django", category: "backend" },
+  // { name: "Flask", category: "backend" },
   { name: "Express.js", category: "backend" },
   { name: "REST APIs", category: "backend" },
   { name: "Prisma", category: "backend" },
@@ -36,15 +36,15 @@ const skills = [
   { name: "PostgreSQL", category: "databases" },
   { name: "MongoDB", category: "databases" },
   { name: "Firebase", category: "databases" },
-  { name: "Supabase", category: "databases" },
+  // { name: "Supabase", category: "databases" },
   { name: "Database Schema Design", category: "databases" },
   { name: "Query Optimization", category: "databases" },
 
   // Tools
-  { name: "Docker", category: "tools" },
+  // { name: "Docker", category: "tools" },
   { name: "Git", category: "tools" },
   { name: "GitHub", category: "tools" },
-  { name: "TanStack Query", category: "tools" },
+  // { name: "TanStack Query", category: "tools" },
   { name: "CI/CD Pipelines", category: "tools" },
   { name: "Postman", category: "tools" },
   { name: "VS Code", category: "tools" },

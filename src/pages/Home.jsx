@@ -1,5 +1,5 @@
 import { Navbar } from "../components/Navbar";
-import { ThemeToggle } from "../components/ThemeToggle";
+// import { ThemeToggle } from "../components/ThemeToggle";
 import { StarBackground } from "@/components/StarBackground";
 import { HeroSection } from "../components/HeroSection";
 import { AboutSection } from "../components/AboutSection";
@@ -7,7 +7,7 @@ import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
-import { ExperienceSection } from "../components/ExperienceSection";
+// import { ExperienceSection } from "../components/ExperienceSection";
 import { EducationSection } from "../components/EducationSection";
 
 export const Home = () => {
@@ -25,7 +25,7 @@ export const Home = () => {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
-        <ExperienceSection/>
+        {/* <ExperienceSection/> */}
         <ProjectsSection />
         <EducationSection/>
         <ContactSection />

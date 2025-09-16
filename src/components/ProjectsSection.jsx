@@ -1,5 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
-import Welth from "../assets/projects/welth.png";
+// import Welth from "../assets/projects/welth.png";
 import Prescripto from "../assets/projects/prescripto.png";
 import Ecommerce from "../assets/projects/ecommerce.png";
 import QuickAI from "../assets/projects/quickai.png";
@@ -7,23 +7,23 @@ import XClone from "../assets/projects/x-clone.png";
 import Blog from "../assets/projects/blog.png";
 
 const projects = [
-  {
-    id: 1,
-    title: "Welth",
-    description:
-      "Finance tracker with Clerk auth, Gemini API receipts, Recharts charts.",
-    image: Welth,
-    tags: [
-      "Next.js",
-      "TailwindCSS",
-      "Supabase",
-      "Clerk",
-      "Inngest",
-      "ShadcnUI",
-    ],
-    demoUrl: "https://welth-gold.vercel.app/",
-    githubUrl: "https://github.com/samipevekar/Welth.git",
-  },
+  // {
+  //   id: 1,
+  //   title: "Welth",
+  //   description:
+  //     "Finance tracker with Clerk auth, Gemini API receipts, Recharts charts.",
+  //   image: Welth,
+  //   tags: [
+  //     "Next.js",
+  //     "TailwindCSS",
+  //     "Supabase",
+  //     "Clerk",
+  //     "Inngest",
+  //     "ShadcnUI",
+  //   ],
+  //   demoUrl: "https://welth-gold.vercel.app/",
+  //   githubUrl: "https://github.com/samipevekar/Welth.git",
+  // },
   {
     id: 2,
     title: "Prescripto",
@@ -39,7 +39,7 @@ const projects = [
       "TailwindCSS",
     ],
     demoUrl: "https://dr-appointment-1.onrender.com/",
-    githubUrl: "https://github.com/samipevekar/Dr-appointment",
+    githubUrl: "https://github.com/awsiyanwaghe/Dr-appointment",
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const projects = [
       "TailwindCSS",
     ],
     demoUrl: "https://e-commerce-sami.vercel.app/",
-    githubUrl: "https://github.com/samipevekar/E-Commerce",
+    githubUrl: "https://github.com/awsiyanwaghe/E-Commerce",
   },
   {
     id: 4,
@@ -76,7 +76,7 @@ const projects = [
       "Cloudinary",
     ],
     demoUrl: "https://quick-ai-1.onrender.com/",
-    githubUrl: "https://github.com/samipevekar/Quick.ai",
+    githubUrl: "https://github.com/awsiyanwaghe/Quick.ai",
   },
   {
     id: 5,
@@ -95,7 +95,7 @@ const projects = [
       "DaisyUI",
     ],
     demoUrl: "https://x-frontend-kuz7.onrender.com/",
-    githubUrl: "https://github.com/samipevekar/x-clone",
+    githubUrl: "https://github.com/awsiyanwaghe/x-clone",
   },
   {
     id: 6,
@@ -105,14 +105,13 @@ const projects = [
     image: Blog,
     tags: [
       "React.js",
-      "Node.js",
       "Express.js",
       "MongoDB",
       "Cloudinary",
       "TailwindCSS",
     ],
     demoUrl: "https://blog-1-b8t3.onrender.com/",
-    githubUrl: "https://github.com/samipevekar/Blog",
+    githubUrl: "https://github.com/awsiyanwaghe/Blog",
   },
 ];
 
@@ -196,7 +195,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/samipevekar"
+            href="https://github.com/awsiyanwaghe"
           >
             Check My Github <ArrowRight size={16} />
           </a>

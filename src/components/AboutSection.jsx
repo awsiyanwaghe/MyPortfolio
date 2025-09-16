@@ -12,7 +12,7 @@ export const AboutSection = () => {
           {/* Left Side */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Web & Mobile App Developer
+              Web App Developer
             </h3>
 
             <p className="text-muted-foreground">
@@ -22,11 +22,7 @@ export const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground">
-              Full-stack developer skilled in MERN, Next.js, and mobile apps.
-              Experienced in building scalable web and mobile platforms with
-              real-time data, AI integrations, REST APIs, and cloud deployments.
-              Passionate about delivering impactful software in fast-paced
-              teams.
+              Full-stack web developer specializing in MERN and Next.js. Experienced in building scalable web platforms with real-time data and AI integrations. Strong focus on REST APIs, authentication, and cloud-ready deployments. Eager to contribute to impactful software solutions in dynamic, fast-paced teams.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +31,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1yr4iky33t-2S5pp1rabTfPhyHFLEVs9R/view"
+                href="https://drive.google.com/file/d/1_DQBoaMZlwNcmA2anHym2uHEy0hDj6la/view?usp=drive_link"
                 target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
@@ -63,7 +59,7 @@ export const AboutSection = () => {
             </div>
 
             {/* Mobile Dev Card */}
-            <div className="gradient-border p-6 card-hover">
+            {/* <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Smartphone className="h-6 w-6 text-primary" />
@@ -78,7 +74,7 @@ export const AboutSection = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Generative AI Badge Card */}
             <div className="gradient-border p-6 card-hover">
@@ -96,7 +92,7 @@ export const AboutSection = () => {
                     Generative AI concepts.
                   </p>
                   <a
-                    href="https://www.cloudskillsboost.google/public_profiles/3b7ee3c3-35b3-46f4-a062-e5d77a2d4210/badges/18349601" 
+                    href="https://www.cloudskillsboost.google/public_profiles/a4c5f79c-78cf-412c-a4d0-d75dcd2e8091/badges/18350937" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-3 text-primary hover:underline"

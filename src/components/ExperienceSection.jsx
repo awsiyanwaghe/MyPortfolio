@@ -9,7 +9,7 @@ const experiences = [
     duration: "Mar 2025 - June 2025",
     description:
       "Spearheaded the development of a full-stack Liquor Enterprise Management System (EMS), enabling centralized accounting, sales, and inventory management across 10+ shops.",
-    skills: ["React", "React Native", "NodeJs", "ExpressJs", "PostgreSQL"],
+    skills: ["React", "NodeJs", "ExpressJs", "PostgreSQL"],
     certificate:
       "https://drive.google.com/file/d/1eFNk-mlVfh07rNv9Hp5mQaN51P216Ba6/view",
     type: "Remote", // Badge info

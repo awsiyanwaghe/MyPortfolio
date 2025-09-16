@@ -27,7 +27,7 @@ Follow these steps to run locally:
 
 ```bash
 # Clone the repo
-git clone https://github.com/samipevekar/my-portfolio.git
+git clone https://github.com/awsiyanwaghe/my-portfolio.git
 
 # Navigate to folder
 cd my-portfolio
@@ -43,6 +43,6 @@ npm run dev
 
 ### Portfolio: https://my-portfolio-eight-xi-89.vercel.app
 
-### GitHub: https://github.com/samipevekar
+### GitHub: https://github.com/awsiyanwaghe
 
-### LinkedIn: https://www.linkedin.com/in/sami-pevekar-b90a742b8
+### LinkedIn: https://www.linkedin.com/in/awsiyan-waghe-b90a742b8

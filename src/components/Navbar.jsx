@@ -7,7 +7,7 @@ const navItems = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
-  { name: "Experience", href: "#experience" },
+  // { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
   { name: "Education", href: "#education" },
   { name: "Contact", href: "#contact" },
@@ -38,8 +38,8 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> Sami </span>{" "}
-            <span className="text-glow text-primary">Pevekar</span>
+            <span className="text-glow text-foreground"> Awsiyan </span>{" "}
+            <span className="text-glow text-primary">Waghe</span>
           </span>
         </a>
 

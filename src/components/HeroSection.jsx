@@ -1,5 +1,5 @@
 import { ArrowDown } from "lucide-react";
-import profileImg from "../assets/profile.png"; // apni image ka actual path yaha use karein
+import profileImg from "../assets/profile.jpg"; // apni image ka actual path yaha use karein
 
 export const HeroSection = () => {
   return (
@@ -23,17 +23,17 @@ export const HeroSection = () => {
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Sami
+              Awsiyan
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Pevekar
+              Waghe
             </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Full-stack developer skilled in MERN, Next.js, and mobile apps, with experience in scalable platforms, real-time data, AI, and cloud deployments.
+         Full-stack developer skilled in MERN and Next.js, with experience in building scalable platforms, real-time data integrations, AI solutions, and cloud deployments.
           </p>
 
           {/* Button */}

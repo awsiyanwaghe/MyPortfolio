@@ -2,7 +2,7 @@ import React from "react";
 
 // Dummy logos (apne assets ke path yaha use karein)
 import hirwalLogo from "../assets/hirwal.png";
-import fajandarLogo from "../assets/fajandar.png";
+import ambedkar from "../assets/ambedkar.jpeg";
 
 // Education Data
 const educationData = [
@@ -11,7 +11,7 @@ const educationData = [
     institution: "Hirwal Education Trust, Mahad",
     degree: "Bachelor of Science - Computer Science",
     duration: "June 2022 - April 2025",
-    grade: "9.77 CGPA",
+    grade: "8.78 CGPA",
     description:
       "I completed my Bachelor's degree in Computer Science at Hirwal Education Trust, Mahad.",
     logo: hirwalLogo,
@@ -24,7 +24,7 @@ const educationData = [
     grade: "74.14%",
     description:
       "I completed my class 12 high school education at Fajandar Education Trust, Vahoor, where I studied Science with Computer.",
-    logo: fajandarLogo,
+    logo: ambedkar,
   },
 ];
 
@@ -56,6 +56,7 @@ export const EducationSection = () => {
                 />
 
                 {/* Details */}
+                
                 <div className="space-y-2">
                   <h3 className="text-xl font-semibold text-primary">
                     {edu.institution}
@@ -64,9 +65,13 @@ export const EducationSection = () => {
                   <p className="text-sm text-muted-foreground">
                     {edu.duration}
                   </p>
-                  <p className="text-sm text-muted-foreground">
-                    Grade: {edu.grade}
-                  </p>
+
+                  {/* Only show grade if not 12th */}
+                  {edu.degree !== "HSC (XII), Science" && (
+                    <p className="text-sm text-muted-foreground">
+                      Grade: {edu.grade}
+                    </p>
+                  )}
                   {/* <p className="text-base text-foreground leading-relaxed">
                     {edu.description}
                   </p> */}

@@ -1,11 +1,9 @@
 import {
-  Instagram,
   Linkedin,
   Mail,
   MapPin,
   Phone,
   Send,
-  Twitch,
   Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -56,10 +54,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-left">Email</h4>
                   <a
-                    href="mailto:samipevekar499@gmail.com"
+                    href="mailto:awsiyanw@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    samipevekar499@gmail.com
+                    awsiyanw@gmail.com
                   </a>
                 </div>
               </div>
@@ -73,7 +71,7 @@ export const ContactSection = () => {
                     href="tel:+919579851765"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +91 9579851765
+                    +91 8237854532
                   </a>
                 </div>
               </div>
@@ -84,7 +82,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-left"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Navi mumbai, India
+                    Mahad, Maharashtra, India
                   </a>
                 </div>
               </div>
@@ -93,10 +91,10 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="https://www.linkedin.com/in/sami-pevekar-b90a742b8" target="_blank">
+                <a href="https://www.linkedin.com/in/awsiyan-waghe-16b5a4341" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="https://x.com/samipevekar" target="_blank">
+                <a href="https://x.com/awsiyan_waghe" target="_blank">
                   <Twitter />    
                 </a>
               </div>
