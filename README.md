@@ -18,7 +18,7 @@ It showcases my **projects, skills, and experiences** with a modern and responsi
 ---
 
 ## 📸 Screenshots
-![Portfolio Screenshot](./public/screenshot.png)
+![Portfolio Screenshot](./public//Screenshot.png)
 
 ---
 ## ⚡ Getting Started
