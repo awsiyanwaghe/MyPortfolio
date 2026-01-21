@@ -6,12 +6,12 @@ const experiences = [
     id: 1,
     role: "Software Developer Intern",
     company: "SNJL",
-    duration: "Mar 2025 - June 2025",
+    duration: "Mar 2025 - May 2025",
     description:
       "Spearheaded the development of a full-stack Liquor Enterprise Management System (EMS), enabling centralized accounting, sales, and inventory management across 10+ shops.",
     skills: ["React", "NodeJs", "ExpressJs", "PostgreSQL"],
     certificate:
-      "https://drive.google.com/file/d/1eFNk-mlVfh07rNv9Hp5mQaN51P216Ba6/view",
+      "https://drive.google.com/file/d/1GuCuxncynczdXMdAruGImaIwdjtrQlis/view?usp=drivesdk",
     type: "Remote", // Badge info
   },
   // future internships/experience objects yaha add karte jao

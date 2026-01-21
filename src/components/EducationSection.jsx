@@ -18,7 +18,7 @@ const educationData = [
   },
   {
     id: 2,
-    institution: "Fajandar Education Trust, Vahoor",
+    institution: "Dr Babasaheb Ambedkar College , Mahad",
     degree: "HSC (XII), Science",
     duration: "June 2020 - April 2022",
     grade: "74.14%",
